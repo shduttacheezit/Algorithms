@@ -30,7 +30,7 @@ def get_words(filename):
             yield wrds
 
 
-
+ 
 def traverse(graph, starting_vertex):
     visited = set()
     queue = deque([[starting_vertex]])
